@@ -1,0 +1,30 @@
+.actions-wrapper {
+  height: auto;
+  width: 100%;
+  justify-content: end;
+
+  & .btn-primary {
+    height: 3rem;
+    width: fit-content;
+
+    background-color: var(--brand-dark);
+    font: var(--text-2md);
+    font-weight: 600;
+    color: var(--text-heading);
+
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.25rem 1.25rem;
+
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+    cursor: pointer;
+
+    & img {
+      height: 1.25rem;
+      width: 1.25rem;
+    }
+  }
+}

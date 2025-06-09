@@ -1,0 +1,68 @@
+label {
+  font: var(--text-2sm);
+
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+input,
+textarea,
+select {
+  appearance: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  outline: 1px solid var(--input-stroke);
+
+  padding-inline: 1rem;
+  font: var(--text-2md);
+  color: var(--input-placeholder);
+  background-color: var(--input-base);
+}
+
+input {
+  height: 3rem;
+}
+
+textarea {
+  height: 8.5rem;
+  padding-block: 1rem;
+  resize: none;
+}
+
+input[type="datetime-local"] {
+  position: relative;
+  text-transform: uppercase;
+
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid transparent;
+  outline: 1px solid var(--brand-light);
+  color: var(--text-heading);
+
+  &::placeholder {
+    color: var(--text-heading);
+  }
+}
+
+input:invalid {
+  outline: 1px solid var(--feedback-danger);
+}
+
+.input-wrapper {
+  & .error {
+    margin-top: 0.5rem;
+    font: var(--text-xs);
+    color: var(--feedback-danger);
+
+    & img {
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+}

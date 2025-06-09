@@ -1,0 +1,55 @@
+input[type="file"] {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.dropzone {
+  align-items: center;
+
+  & .button {
+    height: 2.5rem;
+    width: min-content;
+    background-color: var(--shape-button);
+    margin: 0;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+
+    & svg {
+      height: 1rem;
+      width: 1rem;
+    }
+
+    & svg path {
+      fill: var(--brand-light);
+    }
+
+    & p {
+      color: var(--text-heading);
+    }
+
+    &:hover,
+    &:has(input:focus) {
+      background-color: var(--shape-hover);
+    }
+  }
+
+  & input:hover {
+    color: var(--input-placeholder);
+  }
+
+  & input:valid {
+    color: inherit;
+  }
+
+  & input::file-selector-button {
+    display: none;
+  }
+}

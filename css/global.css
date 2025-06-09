@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  --accent-purple: #b259ff;
+  --accent-fuschia: #ff59f9;
+  --accent-pink: #ff598b;
+  --accent-orange: #ff8b59;
+  --accent-yellow: #ffcd59;
+  --accent-lime: #e1ff59;
+  --accent-green: #59ff91;
+  --accent-cyan: #59fff9;
+  --accent-navy: #6a59ff;
+
+  --feedback-danger: #ff5959;
+
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  --ff-leckerli-one: "Leckerli One", system-ui, sans-serif;
+  --ff-Baloo: "Baloo 2", system-ui, sans-serif;
+  --ff-open-sans: "Open Sans", system-ui, sans-serif;
+
+  --text-logo: 400 2.5rem/1.5 var(--ff-leckerli-one);
+
+  --text-md: 700 1.75rem/1.5 var(--ff-Baloo);
+  --text-sm: 700 1.125rem/1.5 var(--ff-Baloo);
+
+  --text-2md: 300 1rem/1.5 var(--ff-open-sans);
+  --text-2sm: 500 0.875rem/1.5 var(--ff-open-sans);
+  --text-xs: 500 0.75rem/1.5 var(--ff-open-sans);
+}
+
+body {
+  background-color: var(--shape-background);
+  color: var(--text-body);
+  font: var(--text-2sm);
+  overflow: hidden;
+}
+
+main,
+aside {
+  background-color: var(--shape-body);
+  border-radius: 0.75rem;
+}
+
+h1 {
+  font: var(--text-logo);
+  color: var(--accent-pink);
+}
+
+h2 {
+  font: var(--text-md);
+  color: var(--text-heading);
+}
+
+h3 {
+  font: var(--text-sm);
+  color: var(--text-heading);
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}

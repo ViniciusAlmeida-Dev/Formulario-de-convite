@@ -1,0 +1,66 @@
+.radioColor-wrapper {
+  & .radio-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#color {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  border: solid 4px var(--shape-button);
+  cursor: pointer;
+}
+
+#color:hover {
+  outline: solid 2px var(--shape-hover);
+}
+
+#color:checked {
+  outline: solid 2px var(--brand-light);
+}
+
+input[value="brand-light"] {
+  background-color: var(--brand-light);
+}
+
+input[value="navy"] {
+  background-color: var(--accent-navy);
+}
+
+input[value="purple"] {
+  background-color: var(--accent-purple);
+}
+
+input[value="fuschia"] {
+  background-color: var(--accent-fuschia);
+}
+
+input[value="pink"] {
+  background-color: var(--accent-pink);
+}
+
+input[value="danger"] {
+  background-color: var(--feedback-danger);
+}
+
+input[value="orange"] {
+  background-color: var(--accent-orange);
+}
+
+input[value="yellow"] {
+  background-color: var(--accent-yellow);
+}
+
+input[value="lime"] {
+  background-color: var(--accent-lime);
+}
+
+input[value="green"] {
+  background-color: var(--accent-green);
+}
+
+input[value="cyan"] {
+  background-color: var(--accent-cyan);
+}

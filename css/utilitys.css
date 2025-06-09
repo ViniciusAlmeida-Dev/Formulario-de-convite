@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.gap0\.5 {
+  gap: 0.5rem;
+}
+
+.gap0\.25 {
+  gap: 0.25rem;
+}
