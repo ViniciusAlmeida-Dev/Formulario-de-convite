@@ -2,7 +2,7 @@
 
 <p align="center">
 <h2>Fala dev 👋🏼<h2>
-Nesse projeto eu desenvolvi um formulário desktop para uma aplicação que gera convite para um evento.
+Nesse projeto eu desenvolvir um formulário desktop para uma aplicação que gera convite para um evento.
 
 <br/><br/>
 
@@ -24,7 +24,7 @@ Esse é um dos desafios práticos da formação Full-stack, um dos conteúdos de
 <br>
 
 <p align="center">
-  <img alt="Formulário de Matrícula" src="./.github/Cover.svg" width="100%">
+  <img alt="Formulário de Convite" src="./.github/Cover.svg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
